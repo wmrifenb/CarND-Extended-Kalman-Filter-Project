@@ -64,6 +64,8 @@ public:
    */
   void UpdateEKF(const Eigen::VectorXd &z);
 
+  const float PI_ = 3.1415926535897;
+
 };
 
 #endif /* KALMAN_FILTER_H_ */

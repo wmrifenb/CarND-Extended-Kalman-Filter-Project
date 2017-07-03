@@ -38,6 +38,10 @@ private:
   // previous timestamp
   long long previous_timestamp_;
 
+  //The TODO in the constructor said to set the noises there so I can't really do that unless theyr'e in the header file too now can I? #snarkyComment
+  float noise_ax;
+  float noise_ay;
+
   // tool object used to compute Jacobian and RMSE
   Tools tools;
   Eigen::MatrixXd R_laser_;
